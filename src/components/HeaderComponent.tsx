@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron } from 'reactstrap';
 
-export const Header = () => {
+function Header() {
 
     return (
         <Jumbotron className="bg-primary text-white text-center">
@@ -9,3 +9,5 @@ export const Header = () => {
         </Jumbotron>
     );
 }
+
+export default Header
