@@ -1,5 +1,3 @@
-import { SIGKILL } from "constants";
-
 import {Skill } from '../types';
 
 export const SKILLS: Skill[] = [
