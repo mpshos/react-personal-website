@@ -11,7 +11,7 @@ const renderSkill = (skill: Skill) => {
     return (
         <Media tag="li">
             <Media left>
-                <Media object src={skill.image} className="mr-3" />
+                <Media object src={skill.image} width="64" height="64" alt={skill.name} className="mr-3" />
             </Media>
             <Media body>
                 <Media heading className="mt-0">
