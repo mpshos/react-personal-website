@@ -66,7 +66,6 @@ function Experience() {
                     <p>Garmin was my first full time position after graduating, and I'm grateful for my time there. I learned a ton very quickly, which is invaluable. We had strict code standards, so I learned to write cleaner code immediately. I came to understand fully the importance of communication, and my communication skills grew immensely. Overall, it was a tremendous experience for me.</p>
                 </div>
             </div>
-            <hr />
         </div>
     );
 }
