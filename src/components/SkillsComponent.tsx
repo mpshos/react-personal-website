@@ -24,7 +24,17 @@ const renderSkill = (skill: Skill) => {
 }
 
 function Skills({skills}: SkillsProps) {
-    const skillDisplay = skills.map(skill => {
+    const splitIdx = Math.ceil(skills.length / 2);
+
+    const skillDisplayLeft = skills.slice(0, splitIdx).map(skill => {
+        return (
+            <Media list>
+                {renderSkill(skill)}
+            </Media>
+        );
+    })
+
+    const skillDisplayRight = skills.slice(splitIdx).map(skill => {
         return (
             <Media list>
                 {renderSkill(skill)}
@@ -41,8 +51,11 @@ function Skills({skills}: SkillsProps) {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12">
-                    {skillDisplay}
+                <div className="col-md-6">
+                    {skillDisplayLeft}
+                </div>
+                <div className="col-md-6">
+                    {skillDisplayRight}
                 </div>
             </div>
         </div>

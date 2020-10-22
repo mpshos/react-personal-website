@@ -15,8 +15,8 @@ function App() {
     <div>
       <Header />
       <About />
-      <Skills skills={SKILLS}/>
       <Experience />
+      <Skills skills={SKILLS}/>
     </div>
   );
 }
