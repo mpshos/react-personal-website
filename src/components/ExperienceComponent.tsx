@@ -35,31 +35,33 @@ function Experience() {
                 <div className="col-12">
                     <h5>Major Contributions</h5>
                 </div>
-                <div className="col-md-6">
-                    <Card>
-                        <CardImg top width="100%" src="assets/images/p300.jpg" alt="Embraer Phenom 300" />
-                        <CardHeader className="bg-primary text-white">Embraer Phenom Airframe Lead</CardHeader>
-                        <CardBody>
-                            <CardText>The airframe lead is the primary point of contact in the software world for a particular client. I was the lead for the Embraer Phenom line of executive jets for several years. Embraer is one of the top aviation companies, and an important partner for Garmin. My responsibilities included:</CardText>
-                            <ul className="list-group list-group-flush">
-                                <li className="list-group-item">Discussing new features with client engineering teams to determine requirements.</li>
-                                <li className="list-group-item">Maintaining and improving the parts of the UI that were custom to Embraer.</li>
-                                <li className="list-group-item">Determine content and delivery schedule for development phases.</li>
-                                <li className="list-group-item">Coordinating with internal software teams schedule fixes.</li>
-                                <li className="list-group-item">Debugging issues reported by Embraer</li>
-                            </ul>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col-md-6">
-                    <Card>
-                        <CardImg top width="100%" src="assets/images/experience_jsx.jpg" alt="Markup" />
-                        <CardHeader className="bg-primary text-white">Embedded Web Browser</CardHeader>
-                        <CardBody>
-                            <CardText>The Garmin display computer had a somewhat simplified "web" browser that was used to render low criticality pages. This made updating these pages much easier as it was a change to HTML, Javascript, or CSS files instead of the embedded software.</CardText>
-                            <CardText>My responsibility was maintiaining and improving this browser. This required a deep dive on how browsers worked in general, which was fascinating. The embedded environment was very resource constrained, especially memory, so we had to come up with some creative workarounds for our limitations. </CardText>
-                        </CardBody>
-                    </Card>
+                <div className="row">
+                    <div className="col-md-6">
+                        <Card className="h-100">
+                            <CardImg top width="100%" src="assets/images/p300.jpg" alt="Embraer Phenom 300" />
+                            <CardHeader className="bg-primary text-white">Embraer Phenom Airframe Lead</CardHeader>
+                            <CardBody>
+                                <CardText>The airframe lead is the primary point of contact in the software world for a particular client. I was the lead for the Embraer Phenom line of executive jets for several years. Embraer is one of the top aviation companies, and an important partner for Garmin. My responsibilities included:</CardText>
+                                <ul className="list-group list-group-flush">
+                                    <li className="list-group-item">Discussing new features with client engineering teams to determine requirements.</li>
+                                    <li className="list-group-item">Maintaining and improving the parts of the UI that were custom to Embraer.</li>
+                                    <li className="list-group-item">Determine content and delivery schedule for development phases.</li>
+                                    <li className="list-group-item">Coordinating with internal software teams schedule fixes.</li>
+                                    <li className="list-group-item">Debugging issues reported by Embraer</li>
+                                </ul>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    <div className="col-md-6">
+                        <Card className="h-100">
+                            <CardImg top width="100%" src="assets/images/experience_jsx.jpg" alt="Markup" />
+                            <CardHeader className="bg-primary text-white">Embedded Web Browser</CardHeader>
+                            <CardBody>
+                                <CardText>The Garmin display computer had a somewhat simplified "web" browser that was used to render low criticality pages. This made updating these pages much easier as it was a change to HTML, Javascript, or CSS files instead of the embedded software.</CardText>
+                                <CardText>My responsibility was maintiaining and improving this browser. This required a deep dive on how browsers worked in general, which was fascinating. The embedded environment was very resource constrained, especially memory, so we had to come up with some creative workarounds for our limitations. </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
                 </div>
             </div>
             <div className="row">
