@@ -12,7 +12,7 @@ function Header() {
                         <h1 className="display-3">Hello</h1>
                     </div>
                     <div className="col">
-                        <img className="img rounded" src="https://media.giphy.com/media/QLKSt3wQqlj7a/giphy.gif" alt="Imagine the Waving Forest Gump GIF"/>
+                        <img className="img" src="https://media.giphy.com/media/QLKSt3wQqlj7a/giphy.gif" alt="Imagine the Waving Forest Gump GIF"/>
                     </div>
                 </div>
             </div>
