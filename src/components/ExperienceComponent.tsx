@@ -15,6 +15,8 @@ function Experience() {
                     <hr />
                 </div>
             </div>
+
+            {/* Garmin Section */}
             <div className="row">
                 <div className="col-12">
                     <h4>Garmin</h4>
@@ -64,6 +66,28 @@ function Experience() {
                 <div className="col-12">
                     <h5>Takeaway</h5>
                     <p>Garmin was my first full time position after graduating, and I'm grateful for my time there. I learned a ton very quickly, which is invaluable. We had strict code standards, so I learned to write cleaner code immediately. I came to understand fully the importance of communication, and my communication skills grew immensely. Overall, it was a tremendous experience for me.</p>
+                </div>
+            </div>
+
+            {/* Intelispend Section */}
+            <div className="row">
+                <div className="col-12">
+                    <h4>Intelispend Prepaid Solutions</h4>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <h5>Description</h5>
+                    <p>Intelispend was my introduction to the working world as it was my first internship. Intelispend specialized in providing prepaid credit cards that would be offered as part of a company incentive programs. While I was there it was under the umbrella of Maritz. However, it looks like it was acquired by another company shortly after I left. My time there was short, but it was a great learning experience</p>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <h5>Major Contributions</h5>
+                </div>
+                <div className="col-12">
+                    <p>Most of my time at Intelispend was spend testing the customer facing website. We used Watir to test the site which is a Ruby test framework built on top of Selenium.</p>
+                    <p>In addition to the testing, I worked on adding a support page that allowed internal support people to execute common procedures. This was an interesting project, and involved creating a simple UI and some stored procedures corresponding to the maintenance tasks.</p>
                 </div>
             </div>
         </div>

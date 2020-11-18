@@ -9,7 +9,7 @@ type SkillsProps = {
 
 const renderSkill = (skill: Skill) => {
     return (
-        <Media tag="li">
+        <Media tag="li" key={skill.name}>
             <Media left>
                 <Media object src={skill.image} width="64" height="64" alt={skill.name} className="mr-3" />
             </Media>
