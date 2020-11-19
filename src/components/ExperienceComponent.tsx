@@ -19,7 +19,7 @@ function Experience() {
             {/* Garmin Section */}
             <div className="row">
                 <div className="col-12">
-                    <h4>Garmin</h4>
+                    <h4 className="text-primary">Garmin</h4>
                 </div>
                 <div className="col-12 mb-3">
                     <img src="assets/images/garmin_avionics.jpg" className="img-fluid img-thumbnail" alt="Garmin Integrated Flight Deck" />
@@ -72,9 +72,9 @@ function Experience() {
             </div>
 
             {/* Intelispend Section */}
-            <div className="row">
+            <div className="row mt-3">
                 <div className="col-12">
-                    <h4>Intelispend Prepaid Solutions</h4>
+                    <h4 className="text-primary">Intelispend Prepaid Solutions</h4>
                 </div>
             </div>
             <div className="row">
