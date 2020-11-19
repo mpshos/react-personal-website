@@ -64,15 +64,9 @@ function Experience() {
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12">
-                    <h5>Takeaway</h5>
-                    <p>Garmin was my first full time position after graduating, and I'm grateful for my time there. I learned a ton very quickly, which is invaluable. We had strict code standards, so I learned to write cleaner code immediately. I came to understand fully the importance of communication, and my communication skills grew immensely. Overall, it was a tremendous experience for me.</p>
-                </div>
-            </div>
 
             {/* Intelispend Section */}
-            <div className="row mt-3">
+            <div className="row mt-4">
                 <div className="col-12">
                     <h4 className="text-primary">Intelispend Prepaid Solutions</h4>
                 </div>
